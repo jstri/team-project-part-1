@@ -1,34 +1,3 @@
-html, body {
-    background-color: #36393F;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-}
-
-#sidebar {
-    height: 100%;
-    width: 14em;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #2F3136;
-    overflow-x: hidden;
-    padding-top: 1em;
-}
-
-#sidebar a {
-    text-decoration: none;
-    color: #8E9297;
-    display: block;
-    font-size: 25px;
-    padding-left: 18px;
-    padding-bottom: 6px;
-}
-
-#main {
-    margin-left: 14em;
-    color: #C4C5C7;
-}
-
 .problem {
     background-color: #2F3136;
     width: 50em;
