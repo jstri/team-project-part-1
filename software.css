@@ -1,0 +1,19 @@
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+
+tr {
+    border-bottom: 1px solid #5a5e66;
+}
+
+th {
+    text-align: left;
+    padding-left: 10px; 
+}
+
+td {
+    padding: 4px 10px;
+}
