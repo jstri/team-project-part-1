@@ -7,6 +7,14 @@
     border-radius: 10px;
 }
 
+textarea {
+  height: 100%;
+  width: 100%;
+  /* box-sizing: border-box; */
+  resize: vertical;
+  font-size: 18px;;
+}
+
 a {
   text-decoration: none;
   color: #C4C5C7;
