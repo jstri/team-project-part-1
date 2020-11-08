@@ -1,0 +1,22 @@
+html, body {
+    background-color: #36393F;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 200%;
+}
+
+#login {
+    width: 20em;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 20px;
+    background-color: #2F3136;
+    color: #8E9297;
+    border-radius: 10px;
+}
+
+p#error {
+    color: red;
+}

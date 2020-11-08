@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script>
+            function login() {
+                let username = document.getElementById("username").value;
+                let password = document.getElementById("password").value;
+                if ((username === "username") && (password === "password")) {
+                    window.location = "problems.html";
+                    // alert("yes");
+                } else {
+                    document.getElementById("error").innerHTML = "Incorrect username or password";
+                    // alert("no");
+                }
+            }
+        </script>
+        <title>Login</title>
+    </head>
+    <body>
+        <div id="login">
+            <form>
+                <label for="username">Username: </label><input type="text" placeholder="Enter Username" id="username" required>
+                <label for="password">Password: </label><input type="password" placeholder="Enter Password" id="password" required><br>
+                <button onclick="login()">Login</button>
+            </form>
+            <p id="error"></p>
+        </div>
+    </body>
+</html>
