@@ -17,23 +17,42 @@
         <div id="main">
             <img src="logo.png" style="display: block; margin-left: auto; margin-right: auto; ">
             <p style="font-size: 25px; padding-left: 1em;">Calls</p>
-            <table>
-                <tr>
-                    <th>Caller's Name</th>
-                    <th>Operator's Name</th>
-                    <th>Time</th>
-                    <th>Hardware's Serial Number</th>
-                    <th>Operating System</th>
-                    <th>Software Affected</th>
-                </tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-            </table>
+            <div class="calls">
+                <table>
+                    <tr>
+                        <td>Caller's Name:</td>
+                        <td>Operator's Name:</td>
+                        <td>Time:</td>
+                        <td>Hardware's Serial Number:</td>
+                        <td>Operating System:</td>
+                        <td>Software Affected:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">Reason</td>
+                    </tr>
+                </table> 
+            </div>
+            <div class="calls">
+                <form>
+                    <table>
+                        <tr>
+                            <td>Caller's Name:<input type="text"></input></td>
+                            <td>Operator's Name:<input type="text"></input></td>
+                            <td>Time:<input type="text"></input></td>
+                            <td>Serial Number:<input type="text"></input></td>
+                            <td>Operating System:<input type="text"></input></td>
+                            <td>Software Affected:<input type="text"></input></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6"><textarea rows="4"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td style="width:10%;"><input type="submit" value="Add"></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
         </div>
     </body>
 </html>
